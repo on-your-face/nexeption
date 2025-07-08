@@ -1,1 +1,7 @@
-document.querySelectorAll(".link").forEach((e=>{e.addEventListener("click",(function(e){e.preventDefault();const n=this.getAttribute("href");window.open(n,"_blank","noopener,noreferrer")}))}));
+document.querySelectorAll(".link").forEach((e) => {
+    e.addEventListener("click", function (e) {
+        e.preventDefault();
+        const n = this.getAttribute("href");
+        window.open(n, "_blank", "noopener,noreferrer");
+    });
+});
