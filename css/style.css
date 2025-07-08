@@ -20,15 +20,23 @@ body {
     width: 700px;
     max-width: 95vw;
 }
+.links__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .links {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-    gap: 0 5px;
+    gap: 0 10px;
+    /* padding: 10px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(90deg,#e09820,#d6841d,#cb701b);background: linear-gradient(90deg,#e09820,#d6841d,#cb701b); */
 }
 .link {
-    width: 40px;
+    width: 45px;
     height: auto;
     opacity: 1;
     transition: all 0.2s ease;
@@ -42,5 +50,10 @@ body {
 }
 .circle {
     border-radius: 50%;
+    overflow: hidden;
+}
+
+.border {
+    border-radius: 15%;
     overflow: hidden;
 }
